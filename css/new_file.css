@@ -1,0 +1,118 @@
+*{margin:0;padding:0}
+li{list-style:none}
+.box{width:3.2rem;font-size:.12rem}
+/*head*/
+.head{width:3.2rem;height:2.28rem;position:relative;}
+.lbt{width:100%;overflow:hidden;}
+.lunbo{width:6.4rem;animation:aa 5s infinite;position:relative;height: 2.28rem;}
+.lunbo a{float:left;display:block;width: 3.2rem;height: 2.28rem;}
+.lunbo img{width: 100%;height: 2.28rem;display: block;}
+@keyframes aa{
+	0%{left:0;}
+	30%{left:0}
+	50%{left:-3.20rem}
+	80%{left:-3.20rem}
+	100%{left:0}
+}
+.head_1{position:fixed;top:0;background:#e26805;
+z-index:1000;font-size: .12rem;width:100%;}
+.head_1 img{line-height:.21rem;vertical-align:middle;
+padding-left:.10rem;}
+.head_1 .d{padding:.06rem 0;height:.33rem;position: relative;box-sizing: border-box;}
+.head_1 .d div{float:left;height:.21rem}
+.head_1 .d11,.heead_1 .d12{float:left;font-size:0;line-height:.21rem}
+.head_1 .d11{width:.32rem}
+.head_1 .d11 img{width:100%;height:.14rem}
+.head_1 .d12{width:2.4rem}
+.head_1 .d12 img{width:100%;height:.21rem}
+.head_1 .d>p{float:right;padding-right:.12rem;
+color:white;line-height:.21rem;height:.21rem;margin:0}
+.head_1 .d1{position:absolute;left:.8rem;height:.21rem;
+top: 0.06rem;z-index: 1;}
+.head_1 .d1 p{height:.21rem;line-height:.21rem;
+color:rgba(0,0,0,0.4);margin:0}
+.lbt ul{position:absolute;top:2rem;left:2.8rem;}
+.lbt ul li{float:left;width:.06rem;height:.06rem;border-radius:.03rem;
+background:rgba(255,255,255,0.6);margin-left:.05rem}
+.ldd{position:absolute;width:.06rem;height:.06rem;
+border-radius:.03rem;top:2rem;left:2.85rem;background:red;
+animation:bb 5s steps(1) infinite;z-index:100}
+@keyframes bb{
+	0%{left:2.85rem}
+	28%{left:2.85rem}
+	48%{left:2.96rem}
+	78%{left:2.96rem}
+	98%{left:2.85rem}
+}
+.nav0{width: 100%;}
+.nav1{height:.4rem;border-bottom:.06rem solid #bfbfbf;
+box-sizing:border-box}
+.navv{height:.34rem;float:left;margin-bottom:0}
+.navv li{float:left;line-height:.34rem}
+.navv li:first-child{margin-left:.1rem;margin-right:.2rem;
+color:red;font-weight:bold}
+.sx{width:2.2rem;height:.17rem;float:left;margin-top:.09rem;
+overflow:hidden}
+.navv1{margin-left:.1rem;height:.51rem;position:relative;
+animation:vv 10s infinite}
+@keyframes vv{
+	0%{top:0}
+	20%{top:0}
+	40%{top:-.17rem}
+	60%{top:-.17rem}
+	80%{top:-.34rem}
+	100%{top:-.34rem}
+}
+.nav2{height:2.24rem;font-size:0;}
+.nav2_1{float:left;position:relative;width:1.59rem}
+.nav2_1 img{width: 100%;}
+.nav2_2{margin-left:.02rem}
+.nav2_3{margin-bottom:.02rem}
+.nav2_1 ul{position:absolute;top:.06rem;left:.1rem}
+.nav2_1 li:first-child{font-size:.15rem;}
+.nav2_1 li:nth-of-type(2){font-size:.12rem}
+.nav4{height:1.24rem;width3.2rem;font-size:0;margin-top:.04rem}
+.nav4 img{width:100%}
+/*banner*/
+.banner1{height:.44rem;border-top:.04rem solid #bfbfbf;
+box-sizing:border-box;font-size:.14rem;font-weight:bold}
+.banner1 p{line-height:.4rem;margin-left:.12rem}
+.banner2{widht:3.20rem;font-size:0}
+.banner2 img{width:100%}
+.banner3_1{height:2.34rem}
+.banner3_11{font-size:0;float:left;width:1.59rem;}
+.banner3_11 img{width:100%}
+.banner3_11 ul{padding-left:.1rem;font-size:.12rem;box-sizing:border-box;
+margin-top:.1rem;margin-bottom:.1rem;height:.55rem}
+.banner3_12{margin-left:.02rem}
+.banner3_11 li:nth-of-type(2){color:gray}
+.banner3_11 li:nth-of-type(3){color:red;margin-top:.04rem}
+.banner4{border-top:.04rem solid #bfbfbf;width:3.2rem;font-size:0}
+.banner4 img{width:100%}
+.banner3 p{height:.4rem;line-height:.4rem;text-align:center;font-size:.12rem;
+color:gray}
+.banner5_31{height:1.60rem;width:3.2rem}
+.banner5_311{width:1.60rem;float:left;font-size:0}
+.banner5_311 img{width:100%}
+.banner5_31 ul{float:left;width:1.6rem;}
+.banner5_31 li{margin-left:.2rem;color:gray}
+.banner5_31 li:first-child{margin-top:.3rem;color:black}
+.banner5_31 li:last-child{margin-top:.15rem;color:red}
+.banner5_4{height:.4rem;border-bottom:.04rem solid #bfbfbf;text-align:center;}
+.banner5_4{line-height:.4rem;color:gray}
+.banner6_1{height:2.13rem}
+.banner6_11{float:left;font-size:0;width:1.59rem}
+.banner6_11 img,.banner6_13 img{width:100%}
+.banner6_12{margin-right:.02rem}
+.banner6_13{width:3.20rem;font-size:0}
+.banner6_14{height:.68rem;background:#bfbfbf}
+.foot{width:100%;height:.6rem;border-top:.01rem solid gainsboro;
+position:fixed;bottom:0;background:white}
+.foot1 a,.foot1 i,.foot1 span{display:block}
+.foot1 a{float:left;text-align:center;width:.8rem;color:gray;
+text-decoration:none;font-size:0.14rem}
+.foot1 a i{font-size:.22rem;line-height:.25rem;margin-top:.07rem}
+.foot1 a:hover{color:red}
+.fix a{display:block;width:.4rem;height:.4rem;background:white;
+border-radius:.2rem;position:fixed;bottom:.8rem;right:0}
+.fix{text-align:center;line-height:.4rem}
